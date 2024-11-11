@@ -33,7 +33,7 @@ for root in roots:
 			for linky in img_links:
 				name = linky.split("/")[-1]
 				newLink = baselink+ name
-				res = requests.get(linky, stream=True)
+				res = requests.get(newLink, stream=True)
 				path = os.path.join(root_dir, name)
 				with open(path, 'wb') as out_file:
 					shutil.copyfileobj(res.raw, out_file)
