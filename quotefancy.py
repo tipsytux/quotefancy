@@ -38,18 +38,6 @@ def generateRoots(root):
 # USAGE: Add all the galleries that you want to be scraped in the list below
 roots = ["motivational-quotes",
          "inspirational-entrepreneurship-quotes",
-		 "positive-quotes",
-		 "elon-musk-quotes",
-		 "success-quotes",
-		 "quotes-about-life",
-		 "buddha-quotes",
-		 "persistence-quotes",
-		 "discipline-quotes",
-		 "attitude-quotes",
-		 "change-quotes",
-		 "programming-quotes",
-		 "identity-quotes",
-		 "wisdom-quotes",
          "startup-quotes"]
 
 # The root directory
