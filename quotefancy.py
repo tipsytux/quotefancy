@@ -40,11 +40,8 @@ roots = ["motivational-quotes",
          "inspirational-entrepreneurship-quotes",
          "startup-quotes"]
 
-# The root directory
-root_dir = "quotefancy"
-
-if not os.path.exists(root_dir):
-	os.mkdir(root_dir)
+# The root directory, ensure that this exists.
+root_dir = "/home/users/.wallpapers/quotefancy"
 
 for root in roots:
 	pages = generateRoots(root)
